@@ -1,0 +1,97 @@
+**-----------------------------------------------**
+Creating the preprocessing pipeline for 'train.csv'.
+Finished reading cleaned data.
+Training data preprocessing. Pipeline using MinMax Scaler.
+
+
+**-----------------------------------------------**
+Start to discretizes continuous variables:
+	There are missing values in 'Age', discretized it into 6 bins, where '-1' indicates that the value is missing.
+
+
+**-----------------------------------------------**
+Start to fill in missing values:
+	Filled missing values in 'Cabin' with 'None'.
+		'Cabin' added to 'TO_COMBINE'
+	Filled missing values in 'Embarked' with 'Unknown'.
+
+
+**-----------------------------------------------**
+Start to combine unnecessary levels of multinomials.
+	Combinations of levels on 'Cabin'.
+
+
+**-----------------------------------------------**
+Start to transform the following variables: ['Sex', 'Cabin'] to binaries.
+
+
+**-----------------------------------------------**
+Start to apply one-hot-encoding to the following categorical variables: {'Pclass', 'Embarked', 'Age'}
+
+
+
+**-----------------------------------------------**
+Finished extracting the features (X) and targert (y).
+Feature names wrote to 'feature_names.txt' under directory '../processed_data/'
+
+
+**-----------------------------------------------**
+Training data preprocessing. Fitted scaler dumped to 'fitted_scaler.pkl' under directory '../data/'.
+Finished scaling the feature matrix.
+
+
+**-----------------------------------------------**
+Saved the resulting NumPy matrices to directory '../processed_data/'. Features are in 'X_train.npz' and target is in 'y_train.npz'.
+Finished procssing training data.
+
+*****************************************************
+*****************************************************
+
+**-----------------------------------------------**
+Creating the preprocessing pipeline for 'train.csv'.
+Finished reading cleaned data.
+Test data preprocessing. Pre-fitted scaler loaded.
+
+
+**-----------------------------------------------**
+Start to discretizes continuous variables:
+	There are missing values in 'Age', discretized it into 6 bins, where '-1' indicates that the value is missing.
+
+
+**-----------------------------------------------**
+Start to fill in missing values:
+	Filled missing values in 'Cabin' with 'None'.
+		'Cabin' added to 'TO_COMBINE'
+	Filled missing values in 'Embarked' with 'Unknown'.
+
+
+**-----------------------------------------------**
+Start to combine unnecessary levels of multinomials.
+	Combinations of levels on 'Cabin'.
+
+
+**-----------------------------------------------**
+Start to transform the following variables: ['Sex', 'Cabin'] to binaries.
+
+
+**-----------------------------------------------**
+Start to apply one-hot-encoding to the following categorical variables: {'Pclass', 'Embarked', 'Age'}
+
+
+
+**-----------------------------------------------**
+Finished extracting the features (X) and targert (y).
+Feature names wrote to 'feature_names.txt' under directory '../processed_data/'
+
+
+**-----------------------------------------------**
+Finished scaling the feature matrix.
+
+
+**-----------------------------------------------**
+Saved the resulting NumPy matrices to directory '../processed_data/'. Features are in 'X_test.npz' and target is in 'y_test.npz'.
+Finished procssing test data.
+
+*****************************************************
+*****************************************************
+

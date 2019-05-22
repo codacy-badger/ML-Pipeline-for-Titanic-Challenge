@@ -4,11 +4,11 @@
 
 ## 1. Introduction
 
-The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew.
+> The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew.
 
 
 
-One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
+> One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
 
 
 
@@ -31,7 +31,7 @@ As you might have noticed, there is no exploratory data analysis part in our pip
 
 ## 2. Get Data
 
-- Output Directory: `../data/ `   *(All paths hereby would be relative to the `/codes/` directory)*
+> - Output Directory: `../data/ `   *(All paths hereby would be relative to the `/codes/` directory)*
 
 
 
@@ -62,7 +62,7 @@ Below is a data dictionary for the training and test sets from the corresponding
 
 ## 3. Feature Engineering
 
-- Input Directory: `../data/`
-- Output Directory: `../processed_data/`
-- Code Script: [featureEngineering.py](https://github.com/KunyuHe/ML-Pipeline-for-Crowdfunding-Project-Outcome-Prediction/blob/master/codes/featureEngineering.py)
+> - Input Directory: `../data/`
+> - Output Directory: `../processed_data/`
+> - Code Script: [featureEngineering.py](https://github.com/KunyuHe/ML-Pipeline-for-Crowdfunding-Project-Outcome-Prediction/blob/master/codes/featureEngineering.py)
 
